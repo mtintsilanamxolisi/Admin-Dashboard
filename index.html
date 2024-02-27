@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tutor Admin Dashboard</title>
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+    
+<!-------------------NAVIGATION -------------------->
+<div class="container">
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="book-outline"></ion-icon> </span>
+                    <span class="title">Tutor Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-add-outline"></ion-icon></span>
+                    <span class="title">Students</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="information-outline"></ion-icon></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">Settings</span>
+                </a>
+            </li><li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <span class="title">Password</span>
+                </a>
+            </li><li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!----------------------------TOP BAR-------------------------------->
+<div class="main">
+    <div class="topbar">
+        <div class="toggle"><ion-icon name="grid-outline"></ion-icon></div>
+        <div class="search">
+        <label><input type="text" placeholder="Search Here"><ion-icon name="search-outline"></ion-icon></label></div>
+        <div class="user"><ion-icon name="person-outline"></ion-icon>
+        <img src="Assets/Images/FyS8R7EWwAA42sO.jpg" alt="user profile picture" srcset=""></div>
+    </div>
+
+    <!----------------------------MAIN BAR CARDS-------------------------------->
+
+    <div class="cardbox">
+        <div class="card">
+            <div>
+                <div class="numbers">150</div>
+                <div class="cardname">Daily Views</div>
+            </div>
+            <div class="iconbx"><ion-icon name="eye-outline"></ion-icon>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="numbers">13</div>
+                <div class="cardname">Students</div>
+            </div>
+            <div class="iconbx"><ion-icon name="people-outline"></ion-icon>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div>
+                <div class="numbers">65</div>
+                <div class="cardname">Comments</div>
+            </div>
+            <div class="iconbx"><ion-icon name="chatbox-ellipses-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="numbers">R3,500</div>
+                <div class="cardname">Earnings</div>
+            </div>
+            <div class="iconbx"><ion-icon name="cash-outline"></ion-icon>
+            </div>
+        </div>
+   
+    </div>
+
+    <!-----=================Order Details Section==============-->
+
+    <div class="orderDetails">
+        <div class="recentOrders">
+            <div class="cardHeader">
+                <h2>Recent Orders</h2>
+                <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Fee</td>
+                        <td>Payment</td>
+                        <td>Status</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lesego</td>
+                        <td>R600</td>
+                        <td>Paid</td>
+                        <td><span class="status delivered">Delivered</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Joy</td>
+                        <td>R400</td>
+                        <td>Paid</td>
+                        <td><span class="satus pending">Pending</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Banzi</td>
+                        <td>R1000</td>
+                        <td>Paid</td>
+                        <td><span class="status cancelled">Class Cancelled</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Tshepo</td>
+                        <td>R1500</td>
+                        <td>Paid</td>
+                        <td><span class="status in progress">In Progress</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!----------------------------MAIN BAR-------------------------------->
+
+<!--------------SCRIPTS------------------->
+
+<!-----------------MAIN JS---------------->
+
+<!-------------ION ICONS JS---------->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionsicons/ionsicons.esm.js"></script> <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+
+<script src="Assets/main.js"></script>
+</body>
+
+</html>
